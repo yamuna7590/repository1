@@ -1,2 +1,2 @@
-# repository1
+# spring-boot-sample-activemq
 my first repository
