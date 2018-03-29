@@ -23,7 +23,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.jms.core.JmsMessagingTemplate;
 import org.springframework.stereotype.Component;
 
-@Component
+
 public class Producer implements CommandLineRunner {
 
 	@Autowired
