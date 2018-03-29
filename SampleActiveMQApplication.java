@@ -29,7 +29,7 @@ import org.springframework.jms.annotation.EnableJms;
 @EnableJms
 public class SampleActiveMQApplication {
 
-	
+	@Bean
 	public Queue queue() {
 		return new ActiveMQQueue("sample.queue");
 	}
